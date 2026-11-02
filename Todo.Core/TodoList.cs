@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Todo.Core
 {
-    public class TodoListcs
+    public class TodoList
     {
         private readonly List<TodoItem> _items = new();
         public IReadOnlyList<TodoItem> Items => _items.AsReadOnly();
